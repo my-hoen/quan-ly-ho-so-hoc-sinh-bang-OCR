@@ -1,0 +1,1 @@
+# quan-ly-ho-so-hoc-sinh-bang-OCR
