@@ -29,7 +29,8 @@ GEMINI_API_KEY = "YOUR_API_KEY"
 * Chạy server: python app.py
 * Giao diện
 <img width="1336" height="650" alt="image" src="https://github.com/user-attachments/assets/ef487b93-26aa-4d8a-8a7b-5d5f7e113306" />
-Các chức năng chính
+Các chức năng chính:
+
  1. Quản lý sinh viên
 - Thêm mới học sinh/sinh viên: thủ công hoặc thông qua upload ảnh bảng điểm.
 - Cập nhật thông tin sinh viên (MSSV, Họ tên, Ngành).
