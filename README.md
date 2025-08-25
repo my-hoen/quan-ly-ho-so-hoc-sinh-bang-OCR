@@ -27,16 +27,16 @@ pip install -r requirements.txt
 * Cấu hình API key Gemini
 GEMINI_API_KEY = "YOUR_API_KEY"
 * Chạy server: python app.py
-Giao diện
+* Giao diện
 <img width="1336" height="650" alt="image" src="https://github.com/user-attachments/assets/ef487b93-26aa-4d8a-8a7b-5d5f7e113306" />
 Các chức năng chính
-### 1. Quản lý sinh viên
-- **Thêm mới học sinh/sinh viên**: thủ công hoặc thông qua upload ảnh bảng điểm.
-- **Cập nhật** thông tin sinh viên (MSSV, Họ tên, Ngành).
-- **Xóa** sinh viên.
-- **Xem danh sách** sinh viên hiện tại.
+ 1. Quản lý sinh viên
+- Thêm mới học sinh/sinh viên: thủ công hoặc thông qua upload ảnh bảng điểm.
+- Cập nhật thông tin sinh viên (MSSV, Họ tên, Ngành).
+- Xóa sinh viên.
+- Xem danh sách sinh viên hiện tại.
 
-### 2. OCR & Trích xuất thông tin
+2. OCR & Trích xuất thông tin
 - **/ocr**: Upload ảnh bảng điểm → Hệ thống tự động trích xuất:
   - Họ Tên
   - MSSV
@@ -44,7 +44,7 @@ Các chức năng chính
   - Điểm các môn
 - **/grades**: Upload ảnh → Trích xuất riêng bảng điểm từng môn.
 
-### 3. Quản lý điểm
+ 3. Quản lý điểm
 - Tự động gắn điểm từ OCR vào hồ sơ sinh viên.
 - Cho phép thêm điểm thủ công khi tạo mới sinh viên.
 
